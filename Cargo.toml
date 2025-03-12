@@ -1,0 +1,10 @@
+[package]
+name = "oxidar"
+version = "0.0.0"
+edition = "2021"
+
+[patch.crates-io]
+oxidar_derive = { path = "../oxidar_derive" }
+
+[dependencies]
+oxidar_derive = "0.1.0"

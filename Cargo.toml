@@ -2,6 +2,8 @@
 name = "oxidar"
 version = "0.0.0"
 edition = "2021"
+license-file = "LICENSE.md"
+description = "A lightweight web framework written in rust inspired by Django."
 
 [patch.crates-io]
 oxidar_derive = { path = "../oxidar_derive" }

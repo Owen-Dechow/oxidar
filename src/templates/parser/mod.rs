@@ -3,7 +3,7 @@ mod error;
 use super::TemplateVar;
 pub use error::TemplateParsingError;
 
-struct CharStream {
+pub struct CharStream {
     idx: usize,
     chars: Vec<char>,
 }
